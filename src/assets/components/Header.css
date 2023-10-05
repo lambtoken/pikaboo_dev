@@ -1,0 +1,13 @@
+.header {
+    padding: 20px 10px;
+    border-bottom: 1px solid black;
+    
+}
+
+.header .logo{
+    margin:auto;
+    width: fit-content;
+    display: block;
+    text-align: center;
+
+}

@@ -70,4 +70,4 @@ Whether you're a small business starting out or a big company looking to change 
 
 Let's work together to bring your digital dreams to life. Get in touch, and let's make your online presence shine!`;
 
-export { PortfolioData, AboutData };
+export default { PortfolioData, AboutData };
