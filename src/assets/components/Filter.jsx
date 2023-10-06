@@ -1,8 +1,10 @@
 import React from 'react'
 
+import './Filter.css'
+
 const Filter = () => {
   return (
-    <div>Filter</div>
+    <div className='filter-container'></div>
   )
 }
 

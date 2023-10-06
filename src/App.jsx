@@ -9,11 +9,13 @@ function App() {
 
 
   return (
-    <>
-    <Header/>
-    <Body/>
-    <Footer/>
-    </>
+    <div id='page-container'>
+      <div id="content-wrap">
+        <Header/>
+        <Body/>
+      </div>
+      <Footer/>
+    </div>
   )
 }
 

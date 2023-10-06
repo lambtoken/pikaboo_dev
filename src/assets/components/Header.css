@@ -1,7 +1,9 @@
 .header {
-    padding: 20px 10px;
-    border-bottom: 1px solid black;
-    
+    padding: 0px 10px;
+    height: 4em;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
 }
 
 .header .logo{
@@ -9,5 +11,4 @@
     width: fit-content;
     display: block;
     text-align: center;
-
 }

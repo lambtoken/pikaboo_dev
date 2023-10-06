@@ -12,4 +12,4 @@ function Hero() {
   )
 }
 
-export default HeroHeroContent
+export default Hero

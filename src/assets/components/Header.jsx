@@ -5,8 +5,6 @@ import "./Header.css"
 const Header = () => {
   return <div className="header">
     <span className="logo">Pikaboo Dev</span>
-
-
   </div>;
 };
 
