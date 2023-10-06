@@ -1,6 +1,9 @@
 .filter-container {
-    height: 400px;
     background-color: #ebebeb;
     border-radius: 0em;
     margin: 20px 0;
+}
+.filter-container{
+    display: flex;
+    flex-wrap: wrap;
 }
