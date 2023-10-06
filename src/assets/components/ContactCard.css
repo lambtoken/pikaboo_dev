@@ -1,26 +1,32 @@
 .contact-card-container {
-    display: flex;
-    width: 280px;
-    align-items: center;
+    display: block;;
+  
     padding: 10px;
-    margin: 0 60px;
 }
 
+@media only screen and (max-width: 800px) {
+    .contact-card-container {
+        display: flex;
+        align-items: center;
+    }
+  }
+  
+
 .contact-card-image {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%; 
-    overflow: hidden;
     margin-right: 10px;
 }
 
 .contact-card-image img {
     width: 70px;
-    height: 100%;
+    height: 70px;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center center;
  }
 
 .contact-card-name {
     font-size: 1.3em;
+}
+.contact-card-linkedin{
+    display:block;
 }

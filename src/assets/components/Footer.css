@@ -1,6 +1,5 @@
 .footer {
   padding: 0px;
-  height: 6.4em;
   width: 100%;  
   background-color: #ddd;
   position: absolute;
@@ -9,5 +8,20 @@
 
 .contact-container {
   display: flex;
-  justify-content: center;
+  max-width: 1080px;
+  margin:auto;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-container {
+    display: block;
+   
+  }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  
 }
