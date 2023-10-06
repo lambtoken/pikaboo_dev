@@ -1,9 +1,15 @@
 import React from 'react'
+import data from '../data/data'
+
+import "./Hero.css"
 
 function Hero() {
   return (
-    <div>Hero</div>
+    <div className='hero'>
+        <h2>{data.HeroContent}</h2>
+
+    </div>
   )
 }
 
-export default Hero
+export default HeroHeroContent
