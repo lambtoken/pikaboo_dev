@@ -71,4 +71,25 @@ Whether you're a small business starting out or a big company looking to change 
 
 Let's work together to bring your digital dreams to life. Get in touch, and let's make your online presence shine!`;
 
-export default { PortfolioData, AboutData, HeroContent };
+const DeveloperData = [
+  {
+    name: "David Kovac",
+    title: "Full Stack Developer",
+    img: "https://media.licdn.com/dms/image/C4E03AQEm987nQyNv2g/profile-displayphoto-shrink_800_800/0/1648742485232?e=2147483647&v=beta&t=64h0Qt4PdFMaLrArfl7DdBuvCQwiYIz9td76cMkHAG4",
+    linkedin: "https://linkedin.com/"
+  },
+  {
+    name: "Borivoje Putnik",
+    title: "Full Stack Developer",
+    img: "",
+    linkedin: "https://linkedin.com/"
+  },
+  {
+    name: "Milivoje Jankovic",
+    title: "Full Stack Developer",
+    img: "",
+    linkedin: "https://linkedin.com/"
+  },
+]
+
+export default { PortfolioData, AboutData, HeroContent, DeveloperData };
