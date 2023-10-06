@@ -1,0 +1,16 @@
+.category-tag {
+    border-radius: 1em;
+    padding: 2px 6px;
+    margin-right: 4px;
+    background-color: black;
+    width: fit-content;
+    white-space: nowrap;
+    display: inline;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .category-tag {
+      font-size: 0.9em;
+    }
+  }

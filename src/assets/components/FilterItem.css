@@ -1,8 +1,36 @@
 .portfolio-item img {
-  width: 200px;
+  width: 100%;
 }
 
 .portfolio-item {
+  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .portfolio-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .portfolio-item {
+    width: 100%;
+  }
+}
+
+.portfolio-title {
+  width: fit-content;
+}
+
+.portfolio-categories {
+  width: fit-content;
+}
+
+.portfolio-category {
+  width: fit-content;
 }
