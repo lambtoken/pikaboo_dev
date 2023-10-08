@@ -7,7 +7,6 @@ function Hero() {
   return (
     <div className='hero'>
         <h2>{data.HeroContent}</h2>
-
     </div>
   )
 }

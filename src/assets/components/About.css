@@ -1,7 +1,9 @@
 .about-text {
-
+    margin: auto;
+    width: fit-content;
 }
 
 .about-part {
     padding: 0 20px;
+    width: 100%;
 }
