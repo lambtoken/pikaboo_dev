@@ -1,7 +1,8 @@
 .footer {
   padding: 0px;
   width: 100%;  
-  background-color: #ddd;
+  /* background-color: #ddd; */
+  background: rgb(255,255,255); background: linear-gradient(90deg, #ddd 80%, #280a45 80%);
   margin-top: auto;
   bottom: 0;
 }
@@ -19,8 +20,6 @@
    
   }
 }
-
-
 
 @media only screen and (max-width: 500px) {
   
