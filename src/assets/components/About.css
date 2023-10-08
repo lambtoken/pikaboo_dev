@@ -1,6 +1,7 @@
 .about-text {
     margin: auto;
     width: fit-content;
+    text-indent: 3em;
 }
 
 .about-part {

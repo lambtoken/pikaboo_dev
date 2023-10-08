@@ -7,15 +7,15 @@
     margin-top: 10px;
 }
 
+.filter-button.active {
+    background-color: #000;
+    color:#fff;
+}
+
 .filter-button:hover {
     border-radius: 1em;
     transition: border-radius 0.3s;
-    background-color: black;
+    background-color: #222;
     color: white;
     cursor: pointer;
-}
-
-.filter-button.active {
-background-color: #000;
-color:#fff;
 }

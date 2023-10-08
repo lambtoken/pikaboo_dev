@@ -1,7 +1,15 @@
 .portfolio-item img {
   width: 100%;
   border-radius: 10px;
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .portfolio-item {
@@ -11,6 +19,11 @@
   margin-bottom: 20px;
   box-sizing: border-box;
   padding: 0 10px;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.portfolio-item.active {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 800px) {

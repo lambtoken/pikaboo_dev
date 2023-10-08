@@ -13,10 +13,7 @@ const Filter = () => {
       setCategory('all')
     } else {
       setCategory(event.target.value);
-
     }
-
-
   }
 
 
