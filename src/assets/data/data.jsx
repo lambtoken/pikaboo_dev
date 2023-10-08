@@ -7,6 +7,7 @@ const PortfolioData = [
     summary:
       "Designed a sleek one-page site highlighting our client's presentation skills. Built on WordPress with a custom theme, the site elegantly showcases their expertise. Visitors can now explore captivating storytelling and design, enhancing the impact of pitches and presentations.",
     technologies: ["WordPress"],
+    category: ['Business','Portfolio'],
     img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
   },
   {
@@ -14,6 +15,8 @@ const PortfolioData = [
     summary:
       "Crafted a unique WordPress site for Vista Homes, emphasizing their real estate expertise. Using a custom theme, we showcased their quality, client-centered approach, and innovative designs in a straightforward manner.",
     technologies: ["WordPress"],
+    category: ['Business','Portfolio'],
+
     img: "https://miro.medium.com/v2/resize:fit:1400/1*5a0_sXxdX-XL705gftBatA.png",
   },
   {
@@ -21,6 +24,9 @@ const PortfolioData = [
     summary:
       "Crafted a sophisticated WordPress platform for DJ Cory Centric, integrating artist-specific pages, album databases, and event archives. Leveraging intricate data structures, the site seamlessly navigates his musical journey, showcasing his bio, Centric Music label, and Home of Afro House events with precision",
     technologies: ["WordPress"],
+    category: ['Business','Portfolio','Art'],
+  
+
     img: "https://miro.medium.com/v2/resize:fit:1400/1*5a0_sXxdX-XL705gftBatA.png",
   },
   {
@@ -28,6 +34,9 @@ const PortfolioData = [
     summary:
       "Crafted an efficient e-commerce site for Krnjevac, Serbia's top honey distributor. Powered by WordPress and WooCommerce, the platform showcases their range of 100% natural honey products, ensuring seamless online shopping. Emphasizing quality and authenticity, it delivers a streamlined customer experience",
     technologies: ["WordPress", "E-Commerce"],
+    category: ['Business','Shop'],
+
+
     img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
   },
   {
@@ -35,6 +44,9 @@ const PortfolioData = [
     summary:
       "Designed a tailored WordPress site, 'Body By Margie', for a Canadian fitness and diet coach. Customized with subscription features, the platform offers seamless interactions for clients, enhancing their fitness journey. A user-friendly hub empowering healthy lifestyles.",
     technologies: ["WordPress", "E-Commerce"],
+    category: ['Business','Portfolio','Shop'],
+
+
     img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
   },
   {
@@ -42,6 +54,9 @@ const PortfolioData = [
     summary:
       "Built a professional website for 'Streetkopi,' integrating a local print shop and bookstore. Utilizing WordPress, the platform offers streamlined ordering and essential information.",
     technologies: ["WordPress", "E-Commerce"],
+    category: ['Business','Shop'],
+    
+
     img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
   },
   {
@@ -49,6 +64,9 @@ const PortfolioData = [
     summary:
       "Developed 'Creddit,' a Reddit-inspired forum platform, as a MERN stack exercise. With user-friendly features mirroring Reddit, Creddit enables seamless interactions, including posts, comments, users, and subreddits.",
     technologies: ["React", "Node.js"],
+    category: ['Portfolio'],
+
+
     img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
   },
   {
@@ -56,6 +74,8 @@ const PortfolioData = [
     summary:
       "Presenting this very website - A journey in one space. A React-powered portfolio showcasing our diverse projects, from e-commerce and forums to fitness coaching websites. A dynamic snapshot of our expertise and innovation, all in one place.",
     technologies: ["React"],
+    category: ['Portfolio'],
+
     img: "https://miro.medium.com/v2/resize:fit:1400/1*5a0_sXxdX-XL705gftBatA.png",
   },
 ];
@@ -77,21 +97,21 @@ const DeveloperData = [
     title: "Full Stack Developer",
     img: "https://media.licdn.com/dms/image/C4E03AQEm987nQyNv2g/profile-displayphoto-shrink_800_800/0/1648742485232?e=2147483647&v=beta&t=64h0Qt4PdFMaLrArfl7DdBuvCQwiYIz9td76cMkHAG4",
     linkedin: "https://linkedin.com/",
-    mail:"davdkurac69@gmail.com"
+    mail: "davdkurac69@gmail.com"
   },
   {
     name: "Borivoje Putnik",
     title: "Full Stack Developer",
     img: "https://static.wikia.nocookie.net/vikingstv/images/8/82/King_Aelle_of_Northumbria.jpg",
     linkedin: "https://linkedin.com/",
-    mail:"borarooney@gmail.com"
+    mail: "borarooney@gmail.com"
   },
   {
     name: "Milivoje Jankovic",
     title: "Full Stack Developer",
     img: "https://www.balkaninfo.rs/wp-content/uploads/2019/05/Nemanja-1.jpg",
     linkedin: "https://linkedin.com/",
-    mail:"samomeso@gmail.com"
+    mail: "samomeso@gmail.com"
 
   },
 ]
