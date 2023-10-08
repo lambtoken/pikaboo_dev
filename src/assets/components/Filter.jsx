@@ -27,6 +27,7 @@ const Filter = () => {
         <FilterButton clickHandler={clickHandler} currentCategory={category}>Art</FilterButton>
         <FilterButton clickHandler={clickHandler} currentCategory={category}>Business</FilterButton>
         <FilterButton clickHandler={clickHandler} currentCategory={category}>Portfolio</FilterButton>
+        <FilterButton clickHandler={clickHandler} currentCategory={category}>Platform</FilterButton>
         <FilterButton clickHandler={clickHandler} currentCategory={category}>Shop</FilterButton>
       </div>
       <div className='filter-container'>

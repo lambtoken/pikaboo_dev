@@ -8,7 +8,7 @@ const PortfolioData = [
       "Designed a sleek one-page site highlighting our client's presentation skills. Built on WordPress with a custom theme, the site elegantly showcases their expertise. Visitors can now explore captivating storytelling and design, enhancing the impact of pitches and presentations.",
     technologies: ["WordPress"],
     category: ['Business','Portfolio'],
-    img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
+    img: "https://i.imgur.com/Jh7jABb.png",
   },
   {
     title: "VistaHomes",
@@ -17,7 +17,7 @@ const PortfolioData = [
     technologies: ["WordPress"],
     category: ['Business','Portfolio'],
 
-    img: "https://miro.medium.com/v2/resize:fit:1400/1*5a0_sXxdX-XL705gftBatA.png",
+    img: "https://i.imgur.com/iuCKdSV.png",
   },
   {
     title: "AfroCentric Records",
@@ -27,7 +27,7 @@ const PortfolioData = [
     category: ['Business','Portfolio','Art'],
   
 
-    img: "https://miro.medium.com/v2/resize:fit:1400/1*5a0_sXxdX-XL705gftBatA.png",
+    img: "https://i.imgur.com/D6r94ex.png",
   },
   {
     title: "Krnjevac",
@@ -37,7 +37,7 @@ const PortfolioData = [
     category: ['Business','Shop'],
 
 
-    img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
+    img: "https://i.imgur.com/loty602.png",
   },
   {
     title: "Body By Margie",
@@ -47,7 +47,7 @@ const PortfolioData = [
     category: ['Business','Portfolio','Shop'],
 
 
-    img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
+    img: "https://i.imgur.com/crOXI2s.png",
   },
   {
     title: "Streetkopi",
@@ -57,7 +57,7 @@ const PortfolioData = [
     category: ['Business','Shop'],
     
 
-    img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
+    img: "https://i.imgur.com/L9uWwaZ.png",
   },
   {
     title: "Creddit",
@@ -67,7 +67,7 @@ const PortfolioData = [
     category: ['Portfolio'],
 
 
-    img: "https://htmlburger.com/blog/wp-content/uploads/2023/05/Tacto-Minimal-Website-Design-with-No-Images.jpg",
+    img: "https://i.imgur.com/hiQauQ5.png",
   },
   {
     title: "Portfolio",
@@ -77,6 +77,24 @@ const PortfolioData = [
     category: ['Portfolio'],
 
     img: "https://miro.medium.com/v2/resize:fit:1400/1*5a0_sXxdX-XL705gftBatA.png",
+  },
+  {
+    title: "PEP Migration",
+    summary:
+      "We developed a compassionate online platform in collaboration with Serbia's Red Cross, an affiliate of the International Federation of Red Cross and Red Crescent Societies. The website is a lifeline for migrants escaping conflict, providing essential resources and support in the Republic of Serbia. It embodies a commitment to aiding those in need.",
+    technologies: ["WordPress"],
+    category: ['Platform'],
+
+    img: "https://i.imgur.com/CRHx3zt.png",
+  },
+  {
+    title: "Synergyls",
+    summary:
+      "Crafted a dynamic WordPress website for a leading European trucking company. Capturing the essence of their expertise, the site embodies seamless, cost-effective freight solutions and punctual deliveries. The design reflects the company's commitment to excellence in the transportation industry, offering visitors an engaging glimpse into their premier services",
+    technologies: ["WordPress"],
+    category: ['Business'],
+
+    img: "https://i.imgur.com/HCTpE0Z.png",
   },
 ];
 
