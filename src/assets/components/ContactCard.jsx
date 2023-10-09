@@ -12,7 +12,7 @@ const ContactCard = (props) => {
             <div className='contact-card-name'>{props.dev.name}</div>
             <div className='contact-card-title'>{props.dev.title}</div>
             <a className='contact-card-linkedin' href={props.dev.linkedin}>LinkedIn</a>
-            <a className='contact-card-mail' href={props.mail}>{props.dev.mail}</a>
+            <a className='contact-card-mail' href={`mailto:${props.mail}`}>{props.dev.mail}</a>
             
         </div>
     </div>

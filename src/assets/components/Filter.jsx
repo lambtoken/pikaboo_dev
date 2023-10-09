@@ -2,11 +2,19 @@ import React, { useState } from 'react'
 import FilterItem from './FilterItem'
 import data from '../data/data'
 import FilterButton from './FilterButton'
+import FilterItemPopUp from './FilterItemPopUp'
+
 import './Filter.css'
 
 const Filter = () => {
 
   const [category, setCategory] = useState('all')
+  const [openedItem, setOpenedItem] = useState('')
+
+  const itemClickHandler = () => {
+    alert('mame u blizini 18+')
+    setOpenedItem()
+  }
 
   const clickHandler = () => {
     if (category === event.target.value) {
@@ -16,6 +24,9 @@ const Filter = () => {
     }
   }
 
+  const closePopUpClickHandler = () => {
+    setOpenedItem('')
+  }
 
   const filteredData = category == "all" ? data.PortfolioData : data.PortfolioData.filter(items => items.category.includes(category));
 
@@ -32,9 +43,13 @@ const Filter = () => {
       </div>
       <div className='filter-container'>
         {filteredData.map((item, key) => {
-          return <FilterItem portfolioItem={item} key={key}></FilterItem>
+          return <FilterItem onClick={() => {
+            setOpenedItem(item.title)
+          }} 
+          portfolioItem={item} key={key}></FilterItem>
         })}
       </div>
+      {openedItem && <FilterItemPopUp closePopUp={closePopUpClickHandler} portfolioItem={data.PortfolioData.filter((item) => item.title == openedItem )[0]}/>}
     </>
   )
 }
