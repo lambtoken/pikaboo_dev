@@ -8,8 +8,8 @@ import "./Body.css"
 const Body = () => {
   return <div className="body">
     <Hero/>
-    <Filter/>
     <About/>
+    <Filter/>
   </div>
 };
 

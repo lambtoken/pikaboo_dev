@@ -6,10 +6,15 @@
 
 a {
   text-decoration: none;
-  color: #280a45;
+  color: #000000;
+  font-weight: 600;
 }
 
 a:hover {
   text-decoration: underline;
   color: #280a45;
+}
+
+a:visited {
+  color: #000000;
 }

@@ -76,7 +76,7 @@ const PortfolioData = [
     technologies: ["React"],
     category: ['Portfolio'],
 
-    img: "https://miro.medium.com/v2/resize:fit:1400/1*5a0_sXxdX-XL705gftBatA.png",
+    img: "https://i.imgur.com/Ls3Ql0s.png",
   },
   {
     title: "PEP Migration",
@@ -98,7 +98,7 @@ const PortfolioData = [
   },
 ];
 
-const AboutData = `We're David, Milivoje, and Borivoje, a team passionate about crafting incredible online experiences.
+const AboutData = `We're David, Borivoje and Milivoje, a team passionate about crafting incredible online experiences.
 
 Dynamic online stores, WordPress and Drupal websites, powerful apps using React/Node.js - We do it all
 

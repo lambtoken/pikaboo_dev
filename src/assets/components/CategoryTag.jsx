@@ -6,9 +6,9 @@ import "./CategoryTag.css"
 function CategoryTag(props) {
   const colors = {
     "WordPress": "#280a45",
-    "React": "#9ef1d2",
+    "React": "#4debb0",
     "E-Commerce": "#47398b",
-    "Node.js": "#95adbe",
+    "Node.js": "#65a8d8",
     "MongoDB": "#e0f0ea"
   }
   return (
