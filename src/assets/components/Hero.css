@@ -1,4 +1,7 @@
-.hero h2 {
-    margin: 60px auto;
-    width: fit-content;
+.hero {
+  padding: 45px 0px;
+}
+.hero h1 {
+  font-size: 40px;
+  text-align: center;
 }

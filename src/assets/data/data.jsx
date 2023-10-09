@@ -64,7 +64,7 @@ const PortfolioData = [
     summary:
       "Developed 'Creddit,' a Reddit-inspired forum platform, as a MERN stack exercise. With user-friendly features mirroring Reddit, Creddit enables seamless interactions, including posts, comments, users, and subreddits.",
     technologies: ["React", "Node.js"],
-    category: ['Portfolio'],
+    category: ['Portfolio','Platform'],
 
 
     img: "https://i.imgur.com/hiQauQ5.png",

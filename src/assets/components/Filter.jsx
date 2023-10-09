@@ -11,10 +11,6 @@ const Filter = () => {
   const [category, setCategory] = useState('all')
   const [openedItem, setOpenedItem] = useState('')
 
-  const itemClickHandler = () => {
-    alert('mame u blizini 18+')
-    setOpenedItem()
-  }
 
   const clickHandler = () => {
     if (category === event.target.value) {
@@ -41,15 +37,16 @@ const Filter = () => {
         <FilterButton clickHandler={clickHandler} currentCategory={category}>Platform</FilterButton>
         <FilterButton clickHandler={clickHandler} currentCategory={category}>Shop</FilterButton>
       </div>
+      
       <div className='filter-container'>
         {filteredData.map((item, key) => {
           return <FilterItem onClick={() => {
             setOpenedItem(item.title)
-          }} 
-          portfolioItem={item} key={key}></FilterItem>
+          }}
+            portfolioItem={item} key={key}></FilterItem>
         })}
       </div>
-      {openedItem && <FilterItemPopUp closePopUp={closePopUpClickHandler} portfolioItem={data.PortfolioData.filter((item) => item.title == openedItem )[0]}/>}
+      {openedItem && <FilterItemPopUp closePopUp={closePopUpClickHandler} portfolioItem={data.PortfolioData.filter((item) => item.title == openedItem)[0]} />}
     </>
   )
 }

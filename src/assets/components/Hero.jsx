@@ -6,7 +6,7 @@ import "./Hero.css"
 function Hero() {
   return (
     <div className='hero'>
-        <h2>{data.HeroContent}</h2>
+        <h1>{data.HeroContent}</h1>
     </div>
   )
 }

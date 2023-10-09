@@ -24,7 +24,11 @@
   animation: fadeIn 0.7s ease-in-out;
   transition: transform 0.3s ease-in-out;
 }
-
+@media only screen and (max-width: 500px) {
+  .portfolio-item {
+    padding: 0px;
+  }
+}
 .portfolio-item:hover {
   cursor: pointer;
   transform: scale(1.05);
