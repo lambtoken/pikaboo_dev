@@ -12,9 +12,3 @@
     padding: 0 10px;
     padding-bottom: 45px;
 }
-
-@media only screen and (max-width: 500px) {
-    .about-part {
-        padding: 0px;
-    }
-}
