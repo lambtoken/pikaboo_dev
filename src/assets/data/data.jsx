@@ -113,22 +113,22 @@ const DeveloperData = [
   {
     name: "David Kovac",
     title: "Full Stack Developer",
-    img: "public/images/david.jpg",
+    img: "/images/david.jpg",
     linkedin: "https://www.linkedin.com/in/david-kova%C4%8D-9b7423236/",
     mail: "davidkovacwebdev@gmail.com"
   },
   {
     name: "Borivoje Putnik",
     title: "Full Stack Developer",
-    img: "public/images/bora.png",
+    img: "/images/bora.png",
     linkedin: "https://linkedin.com/",
     mail: "borarooney@gmail.com"
   },
   {
     name: "Milivoje Jankovic",
     title: "Full Stack Developer",
-    img: "public/images/default.png",
-    linkedin: "https://linkedin.com/",
+    img: "/images/default.png",
+    linkedin: "https://www.linkedin.com/in/milivoje-jankovi%C4%87-191696295/",
     mail: "jankovicdev@gmail.com"
 
   },
