@@ -1,22 +1,24 @@
 .filter-button {
-    border: none;
-    border-radius: 10px;
-    padding: 5px 10px;
-    transition: border-radius 0.3s;
-    margin-right: 10px;
-    margin-top: 10px;
-    font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: border-radius 0.3s;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 1.2em;
 }
 
 .filter-button.active {
-    background-color: #000;
-    color:#fff;
+  background-color: #000;
+  color: #fff;
 }
 
-.filter-button:hover {
+@media (hover: hover) {
+  .filter-button:hover {
     border-radius: 1em;
     transition: border-radius 0.3s;
     background-color: #000;
     color: white;
     cursor: pointer;
+  }
 }

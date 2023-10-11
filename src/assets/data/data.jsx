@@ -113,23 +113,23 @@ const DeveloperData = [
   {
     name: "David Kovac",
     title: "Full Stack Developer",
-    img: "https://media.licdn.com/dms/image/C4E03AQEm987nQyNv2g/profile-displayphoto-shrink_800_800/0/1648742485232?e=2147483647&v=beta&t=64h0Qt4PdFMaLrArfl7DdBuvCQwiYIz9td76cMkHAG4",
-    linkedin: "https://linkedin.com/",
-    mail: "davdkurac69@gmail.com"
+    img: "public/images/david.jpg",
+    linkedin: "https://www.linkedin.com/in/david-kova%C4%8D-9b7423236/",
+    mail: "davidkovacwebdev@gmail.com"
   },
   {
     name: "Borivoje Putnik",
     title: "Full Stack Developer",
-    img: "https://static.wikia.nocookie.net/vikingstv/images/8/82/King_Aelle_of_Northumbria.jpg",
+    img: "public/images/bora.png",
     linkedin: "https://linkedin.com/",
     mail: "borarooney@gmail.com"
   },
   {
     name: "Milivoje Jankovic",
     title: "Full Stack Developer",
-    img: "https://www.balkaninfo.rs/wp-content/uploads/2019/05/Nemanja-1.jpg",
+    img: "public/images/default.png",
     linkedin: "https://linkedin.com/",
-    mail: "samomeso@gmail.com"
+    mail: "jankovicdev@gmail.com"
 
   },
 ]
