@@ -96,6 +96,15 @@ const PortfolioData = [
 
     img: "https://i.imgur.com/HCTpE0Z.png",
   },
+  {
+    title: "Inject-ing.rs",
+    summary:
+      "Inject-ing.rs, our website for an architectural hydroisolation company, stands out for its smooth, React-like user experience, despite being built on WordPress. . Explore innovative waterproofing solutions, meticulously designed projects, and unparalleled expertise",
+    technologies: ["WordPress"],
+    category: ['Business','Portfolio'],
+
+    img: "https://i.imgur.com/JwZechK.png",
+  },
 ];
 
 const AboutData = `We're David, Borivoje and Milivoje, a team passionate about crafting incredible online experiences.
