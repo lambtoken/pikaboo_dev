@@ -10,9 +10,9 @@ import "./FilterItem.css";
 function FilterItem(props) {
   return (
     <div className={`portfolio-item ${props.className}`} onClick={props.onClick} >
-      <lazySizes className="img"></lazySizes>
       <span className='portfolio-title'> {props.portfolioItem.title}</span>
       <LazyLoadImage
+        className='portfolio-item-image'
         alt="thumbnail"
         effect="blur"
         src={`./images/${props.portfolioItem.title}.png`}
