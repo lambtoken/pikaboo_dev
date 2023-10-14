@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage, Effect } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import Categories from './Categories';
 
@@ -17,12 +18,6 @@ function FilterItem(props) {
         src={`./images/${props.portfolioItem.title}.png`}
         placeholderSrc={`./images/${props.portfolioItem.title}_low.jpeg`}
       />
-      {/* <img
-	      alt="thumbnail"
-	      src={`./images/${props.portfolioItem.title}_low`}
-	      data-src={`./images/${props.portfolioItem.title}`}
-	      className="lazyload"
-      /> */}
       <Categories categories={props.portfolioItem.technologies}/>
     </div>
   )
